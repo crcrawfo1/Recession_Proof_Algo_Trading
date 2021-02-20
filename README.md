@@ -2,7 +2,7 @@
 ### Coded by CONNOR CRAWFORD, HENNA SINGH, MEAGAN RATHJEN, JOHN GASCHLER, OGUZHAN ACIL, FRANCIOS M BYRCH, MAURICIO RODRIGUEZ ALAS
 
 ## How the code works:
-UPDATE 
+We split our code into 2 notebooks, one that cleans the data, formats it to then export it to our model, and one where we read in the data from the other notebook, test, train, run and evaluate the model using different portfolio evaluation metrics. This allowed us to get the biggest part of the process out of way, to then, in the second notebook, focus on picking and adding features to the model making it as profitable as we could.
 
 # The Project Itself:
 
