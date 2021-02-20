@@ -11,7 +11,7 @@ This allowed us to get the biggest part of the process out of way, to then, in t
 # The Project Itself:
 
 ## Project Proposal
-Similar to Project 1, our team wanted to expand on the idea of making portfolios recession proof - so we decided to build an AlgoTrader that would learn based on the 2008 Recession, and apply that trading model to the most recent COVID Recession to see if the Algorithmic Trading Model could outperform what normal human beings would’ve done, especially during periods of high economic volatility. 
+Similar to Project 1, our team wanted to expand on the idea of making portfolios recession proof - so we decided to build an AlgoTrader that would learn based on the 2008 Recession, and apply that trading model to the most recent COVID Recession to see if the Algorithmic Trading Model could outperform what normal human beings would’ve done, especially during periods of high economic volatility. We chose the 5 highest performing stocks in each of the 5 industry portfolios and used the model on these 5. 
 
 Our initial hypothesis was that given the right features and buy/sell learning, the model could anticipate the best time to buy and sell, ultimately recession proofing a bot using the two most recent recessions.
 
