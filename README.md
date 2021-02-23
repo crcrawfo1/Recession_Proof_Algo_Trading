@@ -37,6 +37,9 @@ Some questions that we wanted to answer:
 
  Some of our findings are as follows
 
+ ![DISNEY 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/OVERALL.PNG)
+ 
+
   **DISNEY 2008 Recession**
 
  According to our algorithm for disney has more trade in profit. Especially in the first and last months. 
@@ -81,7 +84,7 @@ Some questions that we wanted to answer:
   
  According to our algorithm for apple seem more balanced sometimes we loss money sometimes we made a profit. But totally we made a little profit.
 
-   ![Apple 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPL2008all.PNG) 
+   ![Apple 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPL2008.PNG) 
 
  If we look at the performance values of our algorithm for 2008 recession Apple trade. Our Annual return 0.02 and sharpe Ration .10. Our accurancy is 0.48.
 
@@ -91,7 +94,7 @@ Some questions that we wanted to answer:
 
  However, current, it seems to have made good profit.Especially in the last months performance has very good. 
 
-   ![Apple Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPLCurrentall.PNG)
+   ![Apple Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPLCurrent.PNG)
 
  If we look at the performance values of our algorithm for Current Apple trade. Our Annual return 0.35 and sharpe Ration 1.2. Our accurancy is 0.54.
 
