@@ -23,7 +23,7 @@ Some questions that we wanted to answer:
 
 ## Model Evaluation and Analysis 
 * Predictive Model Used: Random Forest Classifier
-* Reasoning: The reason we chose to use Random Forest was because we wanted to classify the model into two categories - buy or sell. Since we did not want to make a one-sided model (i.e. long only), using Random Forest to classify the securities into buy/sell allowed us to train the model to sell prior to big losses.
+* Reasoning: The reason we chose to use Random Forest is because it is a strong classification modeler.  Our intention was to train the model to generate indicators to buy and sell based on several features that will be discussed later. Since this is a long only model, entry and exit times are especially critical. In our backtesting, we were able to further mitigate any potential losses by implementing a self-designed stop loss.
 * Exploration & Cleanup was fairly straightforward because our team recycled the code we used for Project 1 which allowed us to focus most of our efforts on the model and its attributes. 
 * Problems with Training the Model: Getting the stop loss to work correctly, adding features that improved the model, and the buy/sell indicator would occasionally be flipped in the visualization
 * Overall Training Process: The model takes into account the returns, volatility, and the trend in volume (similar to simple moving average, but focused on volume rather than price) to anticipate buy/sell behavior. The most time-consuming part of the model was the data cleanup prior to the model training; the model training was fairly straightforward.  
