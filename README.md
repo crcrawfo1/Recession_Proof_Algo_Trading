@@ -35,6 +35,69 @@ Some questions that we wanted to answer:
 - The gains and losses in 2008 were much greater than in COVID. Both recessions caused a good degree of volatility. 
 - S&P 500 generally performs in a less volatile and risky manner compared to individual market sectors
 
+ Some of our findings are as follows
+
+  **DISNEY 2008 Recession**
+
+    According to our algorithm for disney has more trade in profit. Especially in the first and last months. 
+
+   ![DISNEY 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008all.PNG)
+
+    If we look at the performance values of our algorithm for 2008 recession Disney trade. Our Annual return 0.11 and sharpe Ration 0.47. Our accurancy is 0.48
+
+   ![DISNEY 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008Perf.PNG)
+
+  **DISNEY Current**
+
+    Our current trades are much more successful and positive and have made very good profits.
+    
+   ![DISNEY Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DISCurrentall.PNG)
+
+    If we look at the performance values of our algorithm for Current Disney trade. Our Annual return 0.19 and sharpe Ration 1.47. Our accurancy is 0.52
+   
+   ![DISNEY Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DISCurrentPerf.PNG)
+  
+  **TOTAL 2008 Recession**
+
+    According to our algorithm, although we have lost money until September, after that traded with some profits.Looking at the overall graph, our algorithm seems to have made losses for 2008 recession.
+
+   ![Total 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOT2008all.PNG)
+
+    If we look at the performance values of our algorithm for 2008 recession Total trade. Our Annual return -0.11 and sharpe Ration 0.69. Our accurancy is 0.47.
+
+   ![Total 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOT2008Perf.PNG)
+ 
+  **Total Current**
+
+    For the Current Total trade performance seems to have made good profits.Although some of our trading transactions seem to have lost money, we have positive gains in total, as there are more transactions with large profits.
+
+   ![Total Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOTCurrentall.PNG)
+
+    If we look at the performance values of our algorithm for Current booking trade. Our Annual return 0.09 and sharpe Ration .51. Our accurancy is 0.51.
+
+   ![Total Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOTCurrentPerf.PNG)
+
+   **APPLE 2008 Recession**
+
+    According to our algorithm for apple seem more balanced sometimes we loss money sometimes we made a profit. But totally we made a little profit.
+
+   ![Apple 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPL2008all.PNG) 
+
+    If we look at the performance values of our algorithm for 2008 recession Apple trade. Our Annual return 0.02 and sharpe Ration .10. Our accurancy is 0.48.
+
+   ![Apple 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPL2008Perf.PNG)
+
+  **APPLE Current**
+
+    However, current, it seems to have made good profit.Especially in the last months performance has very good. 
+
+   ![Apple Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPLCurrentall.PNG)
+
+    If we look at the performance values of our algorithm for Current Apple trade. Our Annual return 0.35 and sharpe Ration 1.2. Our accurancy is 0.54.
+
+   ![Apple Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPLCurrentPerf.PNG)
+
+
 ## Resource
 
 https://finance.yahoo.com/
