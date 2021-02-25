@@ -23,7 +23,7 @@ Some questions that we wanted to answer:
 
 ## Model Evaluation and Analysis 
 * Predictive Model Used: Random Forest Classifier
-* Reasoning: The reason we chose to use Random Forest is because it is a strong classification modeler.  Our intention was to train the model to generate indicators to buy and sell based on several features that will be discussed later. Since this is a long only model, entry and exit times are especially critical. In our backtesting, we were able to further mitigate any potential losses by implementing a self-designed stop loss.
+* Reasoning: The reason we chose to use Random Forest was because we wanted to classify the model into two categories - buy or sell. Since we did not want to make a one-sided model (i.e. long only), using Random Forest to classify the securities into buy/sell allowed us to train the model to sell prior to big losses.
 * Exploration & Cleanup was fairly straightforward because our team recycled the code we used for Project 1 which allowed us to focus most of our efforts on the model and its attributes. 
 * Problems with Training the Model: Getting the stop loss to work correctly, adding features that improved the model, and the buy/sell indicator would occasionally be flipped in the visualization
 * Overall Training Process: The model takes into account the returns, volatility, and the trend in volume (similar to simple moving average, but focused on volume rather than price) to anticipate buy/sell behavior. The most time-consuming part of the model was the data cleanup prior to the model training; the model training was fairly straightforward.  
@@ -37,66 +37,70 @@ Some questions that we wanted to answer:
 
  Some of our findings are as follows
 
- ![DISNEY 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/OVERALL.PNG)
+ Good point is that the model is an overfitting or underfitting, as you can see here in these graphs, we think that through future iterations. Using another type of model random forest that the model could performance better. We calculated the AUC and Jenny index using Disney in the graph that you can see here. 
+
+ ![OVERALL ](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/OVERALL.PNG)
  
 
   **DISNEY 2008 Recession**
 
- According to our algorithm for disney has more trade in profit. Especially in the first and last months. 
+  Our cumulative returns for Disney between June of 2008 and June of 2009 were %9 despite the stock dipping %23 in that date range. it seems that the total of positive and negative trades were fairly similar in number the positive trades.This is some part can be attribute to our stoploss, which we had set at a negative %5 day over day change. 
 
    ![DISNEY 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008all.PNG)
 
- If we look at the performance values of our algorithm for 2008 recession Disney trade. Our Annual return 0.11 and sharpe Ration 0.47. Our accurancy is 0.48
+  The bollinger signal most heavily follow closely by volatility Trend and further behind by the volume signal.Cumulative return was right around %9 , annual volatility was arround %24 we had a Sharpie ratio of 0.48 which could definitely use work in a sortina ratio od 0.69 which is closer to being acceptable but again could be better. The accurancy score was right around 0.52 and f1 score is 0.58
+
 
    ![DISNEY 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008Perf.PNG)
 
   **DISNEY Current**
 
- Our current trades are much more successful and positive and have made very good profits.
+  We see market that more accurately reflects leading up to the crash of 2008.Our cumulative returns for Disney between 2017 and last friday we are 87% and the annual return of 19%. Percent model doesn't do a good as good of a job of beating the natural rise of the stock.Since the stock did rise 83%. During this period ever we still did beat it narrowly.if you look at the net profit and loss of each trade you can see that the positive trade beat the negative trade in both volume and value per trade 
     
    ![DISNEY Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DISCurrentall.PNG)
 
- If we look at the performance values of our algorithm for Current Disney trade. Our Annual return 0.19 and sharpe Ration 1.47. Our accurancy is 0.52
+  You can see again the bollinger signal is weighted the most important. Our sharpie ratio and our sortino ratio are much better in this time period.If we look at the performance values of our algorithm for Current total trade. Our Annual return 0.09 and sharpe Ration .51. Our accurancy is 0.51.
+
    
    ![DISNEY Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DISCurrentPerf.PNG)
   
   **TOTAL 2008 Recession**
 
- According to our algorithm, although we have lost money until September, after that traded with some profits.Looking at the overall graph, our algorithm seems to have made losses for 2008 recession.
+  According to our algorithm, although we have lost money until September, after that traded with some profits.Looking at the overall graph, As you can see we actually had negative returns over the 2008 recession.
 
    ![Total 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOT2008all.PNG)
 
- If we look at the performance values of our algorithm for 2008 recession Total trade. Our Annual return -0.11 and sharpe Ration 0.69. Our accurancy is 0.47.
+  We had an annual return of -11% and cumulative return -12%.The bollinger signal and the volatility trend signal where the most important features that this model.
 
    ![Total 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOT2008Perf.PNG)
  
   **Total Current**
 
- For the Current Total trade performance seems to have made good profits.Although some of our trading transactions seem to have lost money, we have positive gains in total, as there are more transactions with large profits.
+  Current time frame of 2017 till 2021, this stock performed much better, which is what we would have expected.in terms of the weighted net profit and losses of each trade.overall we did have positive returns with total SE.
 
    ![Total Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOTCurrentall.PNG)
 
- If we look at the performance values of our algorithm for Current booking trade. Our Annual return 0.09 and sharpe Ration .51. Our accurancy is 0.51.
+  If we look at the performance values of our algorithm for Current booking trade. Our Annual return 0.09 and sharpe Ration .51. Our accurancy is 0.51.
 
    ![Total Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOTCurrentPerf.PNG)
 
    **APPLE 2008 Recession**
   
- According to our algorithm for apple seem more balanced sometimes we loss money sometimes we made a profit. But totally we made a little profit.
+  According to our algorithm for apple seem more balanced sometimes we loss money sometimes we made a profit. But totally we made a little profit.
 
    ![Apple 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPL2008.PNG) 
 
- If we look at the performance values of our algorithm for 2008 recession Apple trade. Our Annual return 0.02 and sharpe Ration .10. Our accurancy is 0.48.
+  If we look at the performance values of our algorithm for 2008 recession Apple trade. Our Annual return 0.02 and sharpe Ration .10. Our accurancy is 0.48.
 
    ![Apple 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPL2008Perf.PNG)
 
   **APPLE Current**
 
- However, current, it seems to have made good profit.Especially in the last months performance has very good. 
+  However, current, it seems to have made good profit.Especially in the last months performance has very good. 
 
    ![Apple Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPLCurrent.PNG)
 
- If we look at the performance values of our algorithm for Current Apple trade. Our Annual return 0.35 and sharpe Ration 1.2. Our accurancy is 0.54.
+  If we look at the performance values of our algorithm for Current Apple trade. Our Annual return 0.35 and sharpe Ration 1.2. Our accurancy is 0.54.
 
    ![Apple Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/AAPLCurrentPerf.PNG)
 
