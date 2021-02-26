@@ -48,14 +48,14 @@ The model is not overfitting or underfitting which is good. Using another type o
 
    ![DISNEY 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008all.PNG)
 
-  The bollinger signal most heavily follow closely by volatility Trend and further behind by the volume signal.Cumulative return was right around 9% , annual volatility was arround 24% we had a Sharpie ratio of 0.48 which could definitely use work in a sortina ratio od 0.69 which is closer to being acceptable but again could be better. The accurancy score was right around 0.52 and f1 score is 0.58
+  The bollinger signal was most predictive followed closely by the volatility Trend and further behind was the volume signal. Cumulative return was right around 9% , annual volatility was arround 24% and we had a Sharpie ratio of 0.48 which could definitely use work in a sortina ratio od 0.69 which is closer to being acceptable but again could be better. The accurancy score was right around 0.52 and f1 score is 0.58
 
 
    ![DISNEY 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008Perf.PNG)
 
   **DISNEY Current**
 
-  We see market that more accurately reflects leading up to the crash of 2008.Our cumulative returns for Disney between 2017 and last friday we are 87% and the annual return of 19%. Percent model doesn't do a good as good of a job of beating the natural rise of the stock.Since the stock did rise 83%. During this period ever we still did beat it narrowly.if you look at the net profit and loss of each trade you can see that the positive trade beat the negative trade in both volume and value per trade 
+  We see market that more accurately reflects leading up to the crash of 2008. Our cumulative returns for Disney between 2017 and to the current day we are at 87% and the annual return of 19%. Percent model doesn't do a good as good of a job of beating the natural rise of the stock.Since the stock did rise 83%. During this period ever we still did beat it narrowly.if you look at the net profit and loss of each trade you can see that the positive trade beat the negative trade in both volume and value per trade 
     
    ![DISNEY Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DISCurrentall.PNG)
 
