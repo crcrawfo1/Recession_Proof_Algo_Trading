@@ -37,18 +37,18 @@ Some questions that we wanted to answer:
 
  Some of our findings are as follows
 
- Good point is that the model is an overfitting or underfitting, as you can see here in these graphs, we think that through future iterations. Using another type of model random forest that the model could performance better. We calculated the AUC and Jenny index using Disney in the graph that you can see here. 
+The model is not overfitting or underfitting which is good. Using another type of model other than random forest could performance better which we could work on in future iterations. We calculated the AUC and GINI index using Disney in the graph that you can see here. 
 
  ![OVERALL ](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/OVERALL.PNG)
  
 
   **DISNEY 2008 Recession**
 
-  Our cumulative returns for Disney between June of 2008 and June of 2009 were %9 despite the stock dipping %23 in that date range. it seems that the total of positive and negative trades were fairly similar in number the positive trades.This is some part can be attribute to our stoploss, which we had set at a negative %5 day over day change. 
+  Our cumulative returns for Disney between June of 2008 and June of 2009 were 9% despite the stock dipping 23% in that date range. It seems that the total of positive and negative trades were fairly similar in number the positive trades.This is some part can be attribute to our stoploss, which we had set at a negative 5% day over day change. 
 
    ![DISNEY 2008](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008all.PNG)
 
-  The bollinger signal most heavily follow closely by volatility Trend and further behind by the volume signal.Cumulative return was right around %9 , annual volatility was arround %24 we had a Sharpie ratio of 0.48 which could definitely use work in a sortina ratio od 0.69 which is closer to being acceptable but again could be better. The accurancy score was right around 0.52 and f1 score is 0.58
+  The bollinger signal most heavily follow closely by volatility Trend and further behind by the volume signal.Cumulative return was right around 9% , annual volatility was arround 24% we had a Sharpie ratio of 0.48 which could definitely use work in a sortina ratio od 0.69 which is closer to being acceptable but again could be better. The accurancy score was right around 0.52 and f1 score is 0.58
 
 
    ![DISNEY 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DIS2008Perf.PNG)
