@@ -28,6 +28,13 @@ Some questions that we wanted to answer:
 * Problems with Training the Model: Getting the stop loss to work correctly, adding features that improved the model, and the buy/sell indicator would occasionally be flipped in the visualization
 * Overall Training Process: The model takes into account the returns, volatility, and the trend in volume (similar to simple moving average, but focused on volume rather than price) to anticipate buy/sell behavior. The most time-consuming part of the model was the data cleanup prior to the model training; the model training was fairly straightforward.  
 
+## Feature Engineering
+* EWMA - Short-term window of 5, long-term window of 50, used this over SMA since it more heavily weights recent data (Unused)
+* Volatility - Similar to EWMA, short-term window of 5, long-term of 50. Focuses on the EWMA of the daily return rather than that of the Adjusted Close (Used)
+* Bollinger bands - Used a window of 20, when the close price crossed upper or lower bands, indicated to sell and buy respectively (Used)
+* Volume - Short-term window of 5, long-term window of 15, when the short term volume exceeded the long-term window the model was signaled to buy (Used)
+* ATR - When True Range fell below 0.7, a signal to buy was generated, conversely when True Range was above 0.9, a signal to sell was generated (Unused)
+
 
 ## Findings and PostMortem Analysis
 
