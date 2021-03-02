@@ -71,7 +71,7 @@ The model is not overfitting or underfitting which is good. Using another type o
    
    ![DISNEY Current Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/DISCurrentPerf.PNG)
   
-  **TOTAL 2008 Recession**
+  **TOTAL SE 2008 Recession**
 
   According to our algorithm, although we have lost money until September, after that traded with some profits.Looking at the overall graph, As you can see we actually had negative returns over the 2008 recession.
 
@@ -81,9 +81,9 @@ The model is not overfitting or underfitting which is good. Using another type o
 
    ![Total 2008 Perf](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOT2008Perf.PNG)
  
-  **Total Current**
+  **TOTAL SE Current**
 
-  Current time frame of 2017 till 2021, this stock performed much better, which is what we would have expected.in terms of the weighted net profit and losses of each trade.overall we did have positive returns with total SE.
+  Current time frame of 2017 till 2021, this stock performed much better, which is what we would have expected. In terms of the weighted net profit and losses of each trade. Overall we did have positive returns with Total SE.
 
    ![Total Current](https://github.com/crcrawfo1/Project2/blob/main/Photos/Project2/TOTCurrentall.PNG)
 
