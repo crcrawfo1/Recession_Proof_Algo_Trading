@@ -1,5 +1,5 @@
 # Recession Proofing an AlgoTrading Model
-### Coded by CONNOR CRAWFORD, HENNA SINGH, MEAGAN RATHJEN, JOHN GASCHLER, OGUZHAN ACIL, FRANCIOS M BYRCH, MAURICIO RODRIGUEZ ALAS
+### Coded by Connor Crawford, Henna Singh, Meagan Rathjen, John Gaschler, Oguzhan Acil, Francois M Byrch
 
 ## How the code works:
 We split our code into 2 notebooks: 
